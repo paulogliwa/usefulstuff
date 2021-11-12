@@ -1,3 +1,7 @@
+# General
+### Downloading all links from FileWithLinks and puts them in DownloadFolder with progress  
+```$ wget -i FileWithLinks -P DownloadFolder -q --show-progress```
+
 # WSL
 ### Resetting wsl password
 Open powershell and type   
