@@ -26,3 +26,6 @@ Removing s character from input
 # JQ
 Filtering through JSON and outputting one or another field from an array  
 ```$ jq '.items[] | if .oneField == null then .anotherField else .oneField end' source.json```
+   
+Filtering through JSON and outputting two fields as arrays  
+```jq ".emoji[] | [.name,.url]"```
