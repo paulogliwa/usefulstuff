@@ -1,6 +1,8 @@
 # General
 ### Downloading all links from FileWithLinks and puts them in DownloadFolder with progress  
 ```$ wget -i FileWithLinks -P DownloadFolder -q --show-progress```
+### Converting from dos to unix (removes /r and other characters from scripts created on a Windows machine)
+```$ dos2unix setup.sh```
 
 # WSL
 ### Resetting wsl password
