@@ -32,5 +32,5 @@ Filtering through JSON and outputting one or another field from an array
 Filtering through JSON and outputting two fields as arrays  
 ```jq ".emoji[] | [.name,.url]"```
 
-Returns item count
+Returns item count   
 ```jq ".items[] | length" file.json```
