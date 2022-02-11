@@ -25,6 +25,10 @@ Removing s character from input
 # Sorting entries in a file and removing duplicates
 ```$ sort file.csv | uniq```
 
+# Word/line count   
+```$ wc -l file.txt```   
+```$ wc -w file.txt```   
+
 # JQ
 Filtering through JSON and outputting one or another field from an array  
 ```$ jq '.items[] | if .oneField == null then .anotherField else .oneField end' source.json```
