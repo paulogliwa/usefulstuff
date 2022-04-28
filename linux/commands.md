@@ -38,3 +38,7 @@ Filtering through JSON and outputting two fields as arrays
 
 Returns item count   
 ```jq ".items[] | length" file.json```
+
+# Printing   
+Listing all printers   
+```lpstat -p```
