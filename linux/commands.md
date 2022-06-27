@@ -4,6 +4,16 @@
 ### Converting from dos to unix (removes /r and other characters from scripts created on a Windows machine)
 ```$ dos2unix setup.sh```
 
+### Generating random stuff
+```
+for (( i=0; i<=$1; i++ ))
+do
+	alfanumCodeUno=$($RANDOM | md5sum | head -c 7)
+	alfanumCodeDos=$(openssl rand -hex 7 | head -c 7)
+	stringCode=$(cat /dev/urandom | tr -dc '[:alpha:]' | fold -w 7 | head -n 1)
+done
+```
+
 # WSL
 ### Resetting wsl password
 Open powershell and type   
