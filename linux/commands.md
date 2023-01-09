@@ -52,3 +52,8 @@ Returns item count
 # Printing   
 Listing all printers   
 ```lpstat -p```
+
+
+# Files   
+Check file(s) type  
+```file filename*```
