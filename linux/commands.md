@@ -3,6 +3,9 @@
 ```$ wget -i FileWithLinks -P DownloadFolder -q --show-progress```
 ### Converting from dos to unix (removes /r and other characters from scripts created on a Windows machine)
 ```$ dos2unix setup.sh```
+### Passing lines from one output to another command that has pipe of its own
+_dodac opis_   
+```$ cat hotnames | xargs -I{} -P4 sh -c "host -t A {} 8.8.8.8 | tail -n 1"```
 
 ### Generating random stuff
 ```
