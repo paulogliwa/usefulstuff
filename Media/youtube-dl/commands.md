@@ -7,3 +7,8 @@
 ```sh
 $ yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 'http://www.youtube.com/watch?v=P9pzm5b6FFY'
 ```
+
+# Save every link from kev.txt file
+```sh
+.\yt-dlp.exe -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 -a kev.txt
+```
