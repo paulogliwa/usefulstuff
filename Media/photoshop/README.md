@@ -4,4 +4,4 @@
 3. Create new layer
 4. Select all
 5. Right click (or Edit) -> Fill -> pick your pattern. TADA!   
-![example](https://raw.githubusercontent.com/paulogliwa/usefulstuff/master/Media/photoshop/gridExample.jpg)
+[Example](https://raw.githubusercontent.com/paulogliwa/usefulstuff/master/Media/photoshop/examples/gridExample.jpg)
